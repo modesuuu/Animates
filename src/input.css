@@ -1,0 +1,137 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: "Poppins", sans-serif;
+    padding: 0;
+    margin: 0;
+    
+    
+}
+
+body{
+    overflow-x: hidden;
+    scrollbar-width: none;
+}
+
+.animation-heading{
+    clip-path: polygon(0 0, 100% 1%, 100% 100%, 0% 100%);
+}
+
+.animation-heading .char{
+    transform: translateY(168px);
+    transition: transform .4s;
+}
+
+.span-text .char{
+    opacity: 0;
+}
+
+.clip{
+    clip-path: polygon(0 0, 100% 1%, 100% 100%, 0% 100%);
+}
+
+.text-about{
+    clip-path: polygon(0 0, 100% 1%, 100% 100%, 0% 100%);
+}
+.text-about .char{
+    transform: translateY(-168px);
+    transition: transform .5s;
+}
+
+.small-img2{
+    transition: transform .2s;
+}
+.small-img{
+    transition: transfrom .3;
+}
+
+.price-text{
+    transition: all.5;
+}
+
+/* hoverrr */
+.a{
+    overflow: hidden;
+    position: relative;
+}
+
+.a span{
+    position: relative;
+    z-index: 61;
+}
+
+.a::before{
+    content: '';
+    position: absolute;
+    top: var(--y);
+    left: var(--x);
+    transform: translate(-50%, -50%);
+    width: 0;
+    height: 0;
+    border-radius: 50%;
+    background: #D4D4D4;
+    transition: width .9s, height .9s;
+}
+
+.a:hover::before{
+    width: 300px;
+    height: 300px;
+}
+
+.btn-form button:nth-child(2)::before {
+    content: '';
+    position: absolute;
+    top: var(--y);
+    left: var(--x);
+    transform: translate(-50%, -50%);
+    width: 0;
+    height: 0;
+    border-radius: 50%;
+    background: #000000;
+    transition: width .5s, height .5s;
+}
+
+.btn-form button:nth-child(2):hover:before{
+    height: 300px;
+    width: 300px;
+}
+
+
+.btn-main .btn::before{
+    content: '';
+    position: absolute;
+    top: var(--y);
+    left: var(--x);
+    transform: translate(-50%, -50%);
+    width: 0;
+    height: 0;
+    border-radius: 50%;
+    background: #000000;
+    transition: width .6s, height .6s;
+}
+.btn-main .btn:hover::before{
+    width: 500px;
+    height: 500px;
+}
+
+.btn-about .btn::before{
+    content: '';
+    position: absolute;
+    top: var(--y);
+    left: var(--x);
+    transform: translate(-50%, -50%);
+    width: 0;
+    height: 0;
+    border-radius: 50%;
+    background: #D4D4D4;
+    transition: width .6s, height .6s;
+}
+
+.btn-about .btn:hover::before{
+    width: 500px;
+    height: 500px;
+}
+

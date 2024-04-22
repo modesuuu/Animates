@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="output.css">
+    <link rel="stylesheet" href="input.css">
+    <script src="https://unpkg.com/@studio-freight/lenis@1.0.42/dist/lenis.min.js"></script> 
+    <title>Document</title>
+</head>
+<body>
+    <section class="bg-green">
+        <!-- Navbar -->
+        <nav class="px-16 pt-6 ">
+            <section class="flex justify-between z-[70]">
+                <div class="text-wh flex gap-1 items-center justify-start cursor-pointer">
+                    <i class='bx bxs-category text-3xl'></i>
+                    <h1 class="text-base font-medium ">Shapefly</h1>
+                </div>
+                <!-- navlink -->
+                <div class="navlink fixed flex justify-center z-[60] left-0 right-0">
+                    <div class=" nav-link flex gap-3 px-1.5 py-[5px] bg-wh justify-center items-center rounded-full float-right">
+                        <a class="a item py-1 px-2.5 text-base font-medium text-blck text-center rounded-[20px] active:bg-g" href="#Home"><span>Home</span></a>
+                        <a class="a item py-1 px-2.5 text-base font-medium text-blck text-center rounded-[20px] active:bg-g" href="#About"><span>About</span></a>
+                        <a class="a item py-1 px-2.5 text-base font-medium text-blck text-center rounded-[20px] active:bg-g" href="#Price"><span>Price</span></a>
+                        <a class="a item py-1 px-2.5 text-base font-medium text-blck text-center rounded-[20px] active:bg-g" href="#How_it_works"><span>How it works</span></a>
+                    </div>
+                </div>
+
+                <div class="flex btn-form gap-1 items-center justify-end z-[70]">
+                    <button class="btn text-base font-medium px-4 py-2.5 border-wh border rounded-3xl text-white hover:border-blck hover:text-blck duration-300"> Log In</button>
+                    <button class="btn text-base font-medium px-4 py-2.5 rounded-3xl bg-wh overflow-hidden hover:text-wh transition-colors relative"><span class="relative z-10">Sign up</span></button>
+                </div>
+            </section>
+        </nav>
+    
+        <!-- Heading -->
+        <section id="Home" class="relative pt-[px] px-16 pb-14">
+            <div class="flex justify-between items-center pr-[121px]">
+                <div>
+                    <div class="flex items-center gap-1.5">
+                        <button class="btn flex items-center gap-2.5 px-1 py-1 rounded-full bg-wh">
+                            <div class="px-1.5 py-1.5 items-center flex justify-center bg-blck rounded-full">
+                                <i class='bx bxs-component text-wh text-[14px]'></i>
+                            </div>
+                            <h1 class=" text-base font-medium text-blck px-1">Advance</h1>
+                        </button>
+                       
+                        <!-- rounded -->
+                        <button class="btn px-2 py-2 items-center flex justify-center bg-wh rounded-full"><i class='bx bxs-component text-blck text-[16px]'></i></button>
+                        <button class="btn px-2 py-2 items-center flex justify-center border border-wh  rounded-full"><i class='bx bx-right-arrow-alt text-blck text-[16px]'></i></button>
+                    </div>
+                    <h1 class="text-sm font-medium text-wh max-w-[373px] mt-4">Personalized recommendations for each tsudent based on their preferences and progress</h1>
+                </div>
+                <!-- heading text -->
+                <div class="flex items-center gap-[30px]">
+                    <h1 class="animation-heading text-mint text-[130px]">Simple</h1>
+                    <div class="flex items-center py-2 px-2 bg-wh rounded-full"><i class='bx bx-right-arrow-alt text-mint text-[108px]'></i></div>
+                </div>
+            </div>
+    
+            <h1 class="animation-heading text-mint text-[136px] -mt-14 text-center ">Powerful Design</h1>
+            <div class="flex items-center justify-center gap-[30px] -mt-12">
+                <div class="flex items-center py-2 px-2 bg-wh rounded-full"><i class='bx bx-right-arrow-alt text-mint text-[108px] rotate-45'></i></div>
+                <h1 class="animation-heading text-mint text-[130px]">Solutions</h1>
+            </div>
+    
+            <section class="flex items-center gap-7 mt-3 justify-center">
+                <button class="flex btn-main items-center">
+                    <div class="bg-wh btn px-6 py-3 flex overflow-hidden relative hover:text-wh items-center rounded-full">
+                        <h1 class="text-base transition-colors z-10 font-medium">Get Started</h1>
+                    </div>
+                    <i class='bx bx-right-arrow-alt -ml-3 text-wh bg-blck px-1 py-1 rounded-full -rotate-45'></i>
+                </button>
+                <h1 class="text-sm w-[300px] text-wh">We ofler the highest quality educational resources to make learning accessible</h1>
+            </section>
+        </section>
+    </section>
+
+    <!-- Hero main -->
+    <section id="About" class="px-16">
+        <section class="flex justify-between">
+            <!-- main content -->
+            <div class="flex flex-col btn-main items-start gap-9 mt-[152px]">
+                <h1 class="text-[40px] text-about font-medium w-[471px] text-blck">On our platform you will find a wide range of online courses</h1>
+                <span class="span-text text-base font-medium w-[471px] text-blck">We offer the highes quality education resources, an individual approach to each student and modern technologies to make learning accessible & effective</span>
+                <!-- btn -->
+                <button class="flex btn-about items-center">
+                    <div class="bg-blck btn px-6 text-wh overflow-hidden relative py-3 flex items-center hover:text-blck transition-colors rounded-full">
+                        <h1 class="text-base font-medium z-10">Learn more</h1>
+                    </div>
+                    <i class='bx bx-right-arrow-alt -ml-3  text-blck bg-g px-1 py-1 rounded-full -rotate-45'></i>
+                </button>
+            </div>
+
+            <!-- hero -->
+            <div class="flex clip items-center gap-3 justify-end mt-[89px]">
+                <div class="img2">
+                     <button class="btn flex ml-7 mt-[389px] absolute items-center gap-2.5 px-1 py-1 rounded-full bg-wh">
+                            <div class="px-1.5 py-1.5 items-center flex justify-center bg-blck rounded-full">
+                                <i class='bx bxs-component text-wh text-[14px]'></i>
+                            </div>
+                            <h1 class=" text-base font-medium text-blck px-1">Make 3D</h1>
+                        </button>
+                    <!-- img -->
+                    <img class="rounded-[28px] " src="asset/img_1.png" alt="">
+                </div>
+
+                <div class="clip">
+                    <div class="flex img2 justify-center">
+                        <button class="btn flex mt-[18px] items-center gap-2.5 px-1 py-1 rounded-full absolute bg-wh">
+                            <div class="px-1.5 py-1.5 items-center flex justify-center bg-blck rounded-full">
+                                <i class='bx bxs-component text-wh text-[14px]'></i>
+                            </div>
+                            <h1 class="text-base font-medium text-blck px-1">Effect</h1>
+                        </button>
+                        <!-- img -->
+                        <img class="rounded-[28px]" src="asset/img_2.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <!-- price -->
+    <section id="Price" class="px-16 relative py-[177px] my-[177px]">
+        <!-- img -->
+        <img src="asset/small_1.png" alt="" class="small-img translate-y-[227px] rounded-[18px] ml-8 absolute">
+        <img src="asset/small_2.png" alt="" class="small-img2 translate-x-[1046px] rounded-[18px] translate-y-[166px] absolute">
+
+        <div class="flex flex-col gap-10 justify-center items-center ">
+            <span class="text-base font-medium text-center text-g">this is a small overview</span>
+            <h1 class="price-text text-4xl font-semibold text-center w-[958px]">You will find many more interesting and relevant  courses that will help you develop design skills and gain knowledge in areas that interest you </h1>
+            <button class="flex btn-about items-center">
+                <div class="bg-blck btn overflow-hidden relative px-6 py-3 flex items-center text-wh hover:text-blck transition-colors rounded-full">
+                    <h1 class="text-base font-medium z-20 ">Go To Courses</h1>
+                </div>
+                <i class='bx bx-right-arrow-alt -ml-3 text-blck bg-g px-1 py-1 rounded-full -rotate-45'></i>
+            </button>
+        </div>
+    </section>
+
+    <!-- How it works -->
+    <section id="How_it_works" class="my-[167px] py-[167px] relative ">
+        <div class="my-[117px]">
+            <div id="bg-container" class="flex justify-center items-center absolute w-full mt-16 ">
+                <div class="bg w-[374px] h-[456px] rounded-[22px] bg-[#E8E7E7] absolute rotate-[-27deg]"></div>
+                <div class="bg w-[374px] h-[456px] rounded-[22px] bg-[#D0D0D0] absolute rotate-[-17deg]"></div>
+                <div class="bg w-[374px] h-[456px] rounded-[22px] bg-[#A2A2A2] absolute rotate-[-8deg]"></div>
+                <img src="asset/animg.png" class="bg rounded-[22px] absolute " alt="">
+                <button class="btn-main">
+                    <div class="btn px-6 py-2 bg-wh overflow-hidden rounded-[20px] relative text-blck hover:text-wh transition-colors">
+                        <h1 class="text-base relative font-medium z-50">Marketing & Sales</h1>
+                    </div>
+                </button>
+            </div>
+            <h1 class="font-semibold text-[128px] text-center flex items-center justify-between">
+                <span class=" text-transparent" style="-webkit-text-stroke: 1px #000000 ">HOW IT</span>
+                <span>WORKS</span>
+            </h1>
+        </div>
+    </section>
+
+
+    <!-- footer -->
+    <section class="px-16">
+        <div class="flex justify-between mt-[466px] py-6 border-t-2 border-g">
+            <div class="flex items-center justify-start gap-6">
+                <p class="text-base font font-medium text-g"><a href="">Privacy Policy</a></p>
+                <p class="text-base font font-medium text-g"><a href="">Subscribe to our newslettor</a></p>
+            </div>
+
+
+            <a href="#Home" class="text-g flex gap-1 items-center justify-start mr-24">
+                <i class='bx bxs-category text-3xl'></i>
+                <h1 class="text-base font-medium ">Shapefly</h1>
+            </a>
+
+
+            <div class="flex items-center justify-end gap-6">
+                <p class="text-base font font-medium text-g"><a href="">Facebook</a></p>
+                <p class="text-base font font-medium text-g"><a href="">X</a></p>
+                <p class="text-base font font-medium text-g"><a href="">Instagram</a></p>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="https://unpkg.com/split-type"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+    <script>
+        // lenis
+        const lenis = new Lenis()
+
+        // lenis.on('scroll', (e) => {
+        //     console.log(e)
+        // })
+
+
+        function raf(time) {
+        lenis.raf(time)
+        requestAnimationFrame(raf)
+        }
+
+        requestAnimationFrame(raf)
+
+        //script
+        gsap.registerPlugin(ScrollTrigger);
+
+        // page
+        const textHeading = new SplitType('.animation-heading');
+        gsap.to('.char',{
+            y: 0,
+            stagger: 0.05,
+            delay: 0.2,
+            duration: .1
+        })
+        // nav
+        gsap.from('.navlink',{
+            y:-122,
+            ease: "back.out(1.7)",
+            duration: 1,
+        });
+
+        // home
+        const spanAnimate = document.querySelectorAll('.span-text')
+        spanAnimate.forEach((char, i)=>{
+            const text = new SplitType(char,{types:'chars,words'})
+            
+            gsap.to(text.chars, {
+                scrollTrigger: {
+                    trigger: char,
+                    start: 'top 100%',
+                    end: '50% 60%',
+                    scrub: true,
+                    markers: false,
+                },
+                opacity: 1,
+                stagger: 0.05,
+                delay: 0.2,
+                duration: .1
+            });
+        });
+
+        // img about
+        gsap.from('.img2',{
+            scrollTrigger:{
+                trigger: '.img2',
+                start: 'top 70%',
+                end: '40% 30%',
+                scrub: true,
+                markers: false,
+            },
+            x : 1186,
+            opacity: 0,
+            stagger: 0.07,
+            ease: "power1.out",
+        });
+
+        // heading about
+        const textAbout = document.querySelectorAll('.text-about')
+        textAbout.forEach((char, i)=>{
+            const text = new SplitType(char,{types:'chars,words'})
+            
+            gsap.to(text.chars, {
+                scrollTrigger: {
+                    trigger: char,
+                    start: '-90% 20%',
+                    end: '-50% 10%',
+                    scrub: true,
+                    markers: false,
+                },
+                y: 0,
+                stagger: -0.05,
+            });
+        });
+
+        // about
+        gsap.to('#About',{
+            scrollTrigger: {
+                trigger: '#About',
+                start: '50% 70%',
+                end: '90% 30%',
+                scrub: true,
+                markers: false,
+            },
+            y: 135,
+            delay: 0.2,
+        });
+
+        // price img
+        gsap.from('.small-img',{
+            scrollTrigger: {
+                trigger: '.small-img',
+                start: '-100 70%',
+                end: 'top 40%',
+                scrub: true,
+                markers: false,
+            },
+            x: -246,
+            ease: "back.inOut"
+        });
+
+        gsap.from('.small-img2',{
+            scrollTrigger: {
+                trigger: '.small-img2',
+                start: '-100 80%',
+                end: 'top 40%',
+                scrub: true,
+                markers: false,
+            },
+            x: 1444,
+            ease: "back.inOut"
+        });
+
+        // price heaading
+        const priceText = document.querySelectorAll('.price-text');
+        priceText.forEach((chars, i)=>{
+            const text = new SplitType(chars,{types:'chars,words'});
+
+            gsap.from(text.chars, {
+                scrollTrigger: {
+                    trigger: chars,
+                    start: '-20% 40%',
+                    end: '30% 10%',
+                    scrub: true,
+                    markers: false,
+                },
+                y:-20,
+                scaleY: 0,
+                transformOrigin:'top',
+                stagger: 0.1,
+                duration: 0.9
+            });
+        });
+
+        gsap.to('#Price',{
+            scrollTrigger: {
+                trigger: '#Price',
+                start: '40% 50%',
+                end: '80% 20%',
+                scrub: true,
+                markers: false,
+            },
+            y : 178,
+        });
+
+        // hover
+        const hoverMove = gsap.timeline();
+        const container = document.getElementById('bg-container');
+        const bg = document.querySelectorAll('.bg');
+
+        hoverMove.pause();
+        hoverMove.from(bg,{
+            rotation: 0,
+            duration: 0.8,
+            stagger: 0.05
+        });
+
+        container.addEventListener("mouseenter", ()=>{
+            hoverMove.play();
+        });
+        container.addEventListener("mouseleave", ()=>{
+            hoverMove.reverse();
+        });
+
+        // btn hover
+        const navLink = document.querySelectorAll('.a');
+        
+        navLink.forEach(navLinks => {
+            navLinks.addEventListener('mousemove', function (e) {
+                x = e.pageX - this.offsetLeft;
+                const y = e.pageY - this.offsetTop;
+
+                this.style.setProperty('--x', x + 'px');
+                this.style.setProperty('--y', y + 'px');
+            });
+        });
+
+        const btnHover = document.querySelectorAll('.btn');
+
+        btnHover.forEach(btn => {
+            btn.addEventListener('mousemove', function(e){
+                const rect = btn.getBoundingClientRect(); // Mendapatkan posisi relatif elemen terhadap viewport
+        const x = e.clientX - rect.left; // Menghitung posisi X mouse relatif terhadap elemen
+        const y = e.clientY - rect.top; 
+
+                this.style.setProperty('--x', x + 'px');
+                this.style.setProperty('--y', y + 'px');
+            });
+        });
+    </script>
+    
+</body>
+</html>
